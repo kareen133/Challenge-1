@@ -1,0 +1,150 @@
+
+.body{
+    margin: 0;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+
+p{
+    font-weight: 400;
+}
+h1{
+    font-weight: 600;
+
+}
+
+
+.header-container{
+
+    background-image: url(images/bg-header-desktop.png);
+    text-align: center;
+    padding: 70px;
+    background-repeat: no-repeat;
+}
+.header-container svg{
+padding-bottom: 30px;
+}
+
+.fist-btn ,.sec-btn{
+    padding: 10px;
+    width: 180px;
+    height: 42px;
+    border-radius: 40px;
+    border: 0px;
+    box-shadow: 1px 1px 5px;
+
+    
+}
+.fist-btn{
+    background-color:  hsl(171, 66%, 44%);
+    margin-right: 30px;
+}
+.sec-btn{background-color: hsl(233, 100%, 69%);}
+.btns{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.sec-container{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+
+.third-container{
+    display: flex;
+    justify-content:space-between   ;
+    padding-bottom: 70px;
+}
+.third-container p{
+    width: 300px;
+    text-align:left ;
+    padding-right: 200px;
+}
+.side-feature{
+    padding-top: 70px;
+}
+.four-container {
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.device{
+    padding-bottom: 70px;
+}
+
+.five-container ,.seven-container{
+    text-align: center;
+   
+}
+.workflow{
+    width: 1000px;
+   height: 300px;
+    text-align: center;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-left:195px;
+    padding-bottom: 70px;
+}
+ .workflow p{
+    width: 300px;
+ }
+
+ .six-container{
+    width: 1100px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 150px;
+    padding-bottom: 80px;
+    
+ }
+ ul li{
+    list-style-type: none;
+    display :inline-block;
+    padding : 0px  20px;
+    
+}
+
+.f{
+    padding: 20px;
+    
+}
+
+.footer-container{
+    height: 120px;
+    display: flex;
+    justify-content:space-between;
+    background-color: hsl(201, 11%, 66%);
+    margin-top: 70px;
+
+}
+.media{
+    margin-right: 50px;
+    padding: 50px;
+    display: flex;
+    gap: 15px;
+    
+}
+.pic{
+    margin-left: 50px;
+    padding: 40px;
+}
+ 
+@media (max-width :375px) {
+   .header-container{
+    background-image: url(images/bg-header-mobile.png);
+
+   }
+  .fist-btn ,.sec-btn{
+    
+    width:300px;
+   
+  }
+
+
+
+
+
+}
